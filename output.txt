@@ -1,0 +1,123 @@
+Epoch 1/30
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/nn_impl.py:183: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+    391/Unknown - 324s 828ms/step - loss: 2.6816 - contains_loss: 0.4322 - center_loss: 0.1769 - radius_loss: 0.0481 - contains_binary_accuracy: 0.7772 - center_weighted_absolute_error: 0.4376 - radius_weighted_absolute_error: 0.1786
+Epoch 00001: saving model to ./checkpoints/circle-net-0001.ckpt
+391/391 [==============================] - 324s 829ms/step - loss: 2.6816 - contains_loss: 0.4322 - center_loss: 0.1769 - radius_loss: 0.0481 - contains_binary_accuracy: 0.7772 - center_weighted_absolute_error: 0.4376 - radius_weighted_absolute_error: 0.1786
+Epoch 2/30
+390/391 [============================>.] - ETA: 0s - loss: 0.3980 - contains_loss: 0.1126 - center_loss: 0.0180 - radius_loss: 0.0105 - contains_binary_accuracy: 0.9627 - center_weighted_absolute_error: 0.1320 - radius_weighted_absolute_error: 0.0783
+Epoch 00002: saving model to ./checkpoints/circle-net-0002.ckpt
+391/391 [==============================] - 318s 814ms/step - loss: 0.3980 - contains_loss: 0.1126 - center_loss: 0.0180 - radius_loss: 0.0105 - contains_binary_accuracy: 0.9627 - center_weighted_absolute_error: 0.1320 - radius_weighted_absolute_error: 0.0782
+Epoch 3/30
+390/391 [============================>.] - ETA: 0s - loss: 0.2065 - contains_loss: 0.0649 - center_loss: 0.0084 - radius_loss: 0.0057 - contains_binary_accuracy: 0.9773 - center_weighted_absolute_error: 0.0911 - radius_weighted_absolute_error: 0.0568
+Epoch 00003: saving model to ./checkpoints/circle-net-0003.ckpt
+391/391 [==============================] - 315s 806ms/step - loss: 0.2065 - contains_loss: 0.0648 - center_loss: 0.0084 - radius_loss: 0.0057 - contains_binary_accuracy: 0.9773 - center_weighted_absolute_error: 0.0911 - radius_weighted_absolute_error: 0.0567
+Epoch 4/30
+390/391 [============================>.] - ETA: 0s - loss: 0.1385 - contains_loss: 0.0415 - center_loss: 0.0057 - radius_loss: 0.0040 - contains_binary_accuracy: 0.9857 - center_weighted_absolute_error: 0.0759 - radius_weighted_absolute_error: 0.0476
+Epoch 00004: saving model to ./checkpoints/circle-net-0004.ckpt
+391/391 [==============================] - 314s 803ms/step - loss: 0.1385 - contains_loss: 0.0415 - center_loss: 0.0057 - radius_loss: 0.0040 - contains_binary_accuracy: 0.9857 - center_weighted_absolute_error: 0.0758 - radius_weighted_absolute_error: 0.0476
+Epoch 5/30
+390/391 [============================>.] - ETA: 0s - loss: 0.1081 - contains_loss: 0.0335 - center_loss: 0.0043 - radius_loss: 0.0032 - contains_binary_accuracy: 0.9887 - center_weighted_absolute_error: 0.0660 - radius_weighted_absolute_error: 0.0418
+Epoch 00005: saving model to ./checkpoints/circle-net-0005.ckpt
+391/391 [==============================] - 315s 807ms/step - loss: 0.1081 - contains_loss: 0.0334 - center_loss: 0.0043 - radius_loss: 0.0032 - contains_binary_accuracy: 0.9887 - center_weighted_absolute_error: 0.0660 - radius_weighted_absolute_error: 0.0418
+Epoch 6/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0961 - contains_loss: 0.0280 - center_loss: 0.0039 - radius_loss: 0.0029 - contains_binary_accuracy: 0.9907 - center_weighted_absolute_error: 0.0634 - radius_weighted_absolute_error: 0.0401
+Epoch 00006: saving model to ./checkpoints/circle-net-0006.ckpt
+391/391 [==============================] - 318s 813ms/step - loss: 0.0961 - contains_loss: 0.0281 - center_loss: 0.0039 - radius_loss: 0.0029 - contains_binary_accuracy: 0.9906 - center_weighted_absolute_error: 0.0634 - radius_weighted_absolute_error: 0.0401
+Epoch 7/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0817 - contains_loss: 0.0254 - center_loss: 0.0032 - radius_loss: 0.0024 - contains_binary_accuracy: 0.9914 - center_weighted_absolute_error: 0.0574 - radius_weighted_absolute_error: 0.0362
+Epoch 00007: saving model to ./checkpoints/circle-net-0007.ckpt
+391/391 [==============================] - 322s 823ms/step - loss: 0.0817 - contains_loss: 0.0254 - center_loss: 0.0032 - radius_loss: 0.0024 - contains_binary_accuracy: 0.9914 - center_weighted_absolute_error: 0.0574 - radius_weighted_absolute_error: 0.0362
+Epoch 8/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0772 - contains_loss: 0.0244 - center_loss: 0.0030 - radius_loss: 0.0023 - contains_binary_accuracy: 0.9918 - center_weighted_absolute_error: 0.0553 - radius_weighted_absolute_error: 0.0352
+Epoch 00008: saving model to ./checkpoints/circle-net-0008.ckpt
+391/391 [==============================] - 318s 815ms/step - loss: 0.0772 - contains_loss: 0.0243 - center_loss: 0.0030 - radius_loss: 0.0023 - contains_binary_accuracy: 0.9919 - center_weighted_absolute_error: 0.0553 - radius_weighted_absolute_error: 0.0352
+Epoch 9/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0683 - contains_loss: 0.0223 - center_loss: 0.0026 - radius_loss: 0.0020 - contains_binary_accuracy: 0.9924 - center_weighted_absolute_error: 0.0517 - radius_weighted_absolute_error: 0.0328
+Epoch 00009: saving model to ./checkpoints/circle-net-0009.ckpt
+391/391 [==============================] - 315s 805ms/step - loss: 0.0683 - contains_loss: 0.0223 - center_loss: 0.0026 - radius_loss: 0.0020 - contains_binary_accuracy: 0.9924 - center_weighted_absolute_error: 0.0517 - radius_weighted_absolute_error: 0.0328
+Epoch 10/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0634 - contains_loss: 0.0201 - center_loss: 0.0025 - radius_loss: 0.0019 - contains_binary_accuracy: 0.9931 - center_weighted_absolute_error: 0.0502 - radius_weighted_absolute_error: 0.0319
+Epoch 00010: saving model to ./checkpoints/circle-net-0010.ckpt
+391/391 [==============================] - 316s 808ms/step - loss: 0.0634 - contains_loss: 0.0201 - center_loss: 0.0025 - radius_loss: 0.0019 - contains_binary_accuracy: 0.9931 - center_weighted_absolute_error: 0.0502 - radius_weighted_absolute_error: 0.0319
+Epoch 11/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0608 - contains_loss: 0.0199 - center_loss: 0.0023 - radius_loss: 0.0018 - contains_binary_accuracy: 0.9934 - center_weighted_absolute_error: 0.0492 - radius_weighted_absolute_error: 0.0311
+Epoch 00011: saving model to ./checkpoints/circle-net-0011.ckpt
+391/391 [==============================] - 312s 798ms/step - loss: 0.0608 - contains_loss: 0.0199 - center_loss: 0.0023 - radius_loss: 0.0018 - contains_binary_accuracy: 0.9934 - center_weighted_absolute_error: 0.0492 - radius_weighted_absolute_error: 0.0311
+Epoch 12/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0579 - contains_loss: 0.0184 - center_loss: 0.0023 - radius_loss: 0.0017 - contains_binary_accuracy: 0.9940 - center_weighted_absolute_error: 0.0481 - radius_weighted_absolute_error: 0.0302
+Epoch 00012: saving model to ./checkpoints/circle-net-0012.ckpt
+391/391 [==============================] - 315s 805ms/step - loss: 0.0579 - contains_loss: 0.0184 - center_loss: 0.0023 - radius_loss: 0.0017 - contains_binary_accuracy: 0.9940 - center_weighted_absolute_error: 0.0481 - radius_weighted_absolute_error: 0.0302
+Epoch 13/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0554 - contains_loss: 0.0195 - center_loss: 0.0021 - radius_loss: 0.0015 - contains_binary_accuracy: 0.9934 - center_weighted_absolute_error: 0.0457 - radius_weighted_absolute_error: 0.0289
+Epoch 00013: saving model to ./checkpoints/circle-net-0013.ckpt
+391/391 [==============================] - 313s 800ms/step - loss: 0.0554 - contains_loss: 0.0194 - center_loss: 0.0020 - radius_loss: 0.0015 - contains_binary_accuracy: 0.9934 - center_weighted_absolute_error: 0.0457 - radius_weighted_absolute_error: 0.0289
+Epoch 14/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0516 - contains_loss: 0.0178 - center_loss: 0.0019 - radius_loss: 0.0015 - contains_binary_accuracy: 0.9939 - center_weighted_absolute_error: 0.0442 - radius_weighted_absolute_error: 0.0283
+Epoch 00014: saving model to ./checkpoints/circle-net-0014.ckpt
+391/391 [==============================] - 310s 793ms/step - loss: 0.0516 - contains_loss: 0.0178 - center_loss: 0.0019 - radius_loss: 0.0015 - contains_binary_accuracy: 0.9939 - center_weighted_absolute_error: 0.0442 - radius_weighted_absolute_error: 0.0283
+Epoch 15/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0502 - contains_loss: 0.0172 - center_loss: 0.0019 - radius_loss: 0.0014 - contains_binary_accuracy: 0.9941 - center_weighted_absolute_error: 0.0438 - radius_weighted_absolute_error: 0.0278
+Epoch 00015: saving model to ./checkpoints/circle-net-0015.ckpt
+391/391 [==============================] - 308s 787ms/step - loss: 0.0502 - contains_loss: 0.0172 - center_loss: 0.0019 - radius_loss: 0.0014 - contains_binary_accuracy: 0.9941 - center_weighted_absolute_error: 0.0438 - radius_weighted_absolute_error: 0.0278
+Epoch 16/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0490 - contains_loss: 0.0164 - center_loss: 0.0019 - radius_loss: 0.0014 - contains_binary_accuracy: 0.9946 - center_weighted_absolute_error: 0.0435 - radius_weighted_absolute_error: 0.0276
+Epoch 00016: saving model to ./checkpoints/circle-net-0016.ckpt
+391/391 [==============================] - 308s 787ms/step - loss: 0.0490 - contains_loss: 0.0165 - center_loss: 0.0019 - radius_loss: 0.0014 - contains_binary_accuracy: 0.9946 - center_weighted_absolute_error: 0.0435 - radius_weighted_absolute_error: 0.0276
+Epoch 17/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0488 - contains_loss: 0.0185 - center_loss: 0.0017 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9939 - center_weighted_absolute_error: 0.0420 - radius_weighted_absolute_error: 0.0266
+Epoch 00017: saving model to ./checkpoints/circle-net-0017.ckpt
+391/391 [==============================] - 311s 795ms/step - loss: 0.0488 - contains_loss: 0.0185 - center_loss: 0.0017 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9939 - center_weighted_absolute_error: 0.0420 - radius_weighted_absolute_error: 0.0266
+Epoch 18/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0457 - contains_loss: 0.0164 - center_loss: 0.0017 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9944 - center_weighted_absolute_error: 0.0415 - radius_weighted_absolute_error: 0.0263
+Epoch 00018: saving model to ./checkpoints/circle-net-0018.ckpt
+391/391 [==============================] - 301s 770ms/step - loss: 0.0457 - contains_loss: 0.0164 - center_loss: 0.0017 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9944 - center_weighted_absolute_error: 0.0415 - radius_weighted_absolute_error: 0.0263
+Epoch 19/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0445 - contains_loss: 0.0154 - center_loss: 0.0017 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9948 - center_weighted_absolute_error: 0.0411 - radius_weighted_absolute_error: 0.0261
+Epoch 00019: saving model to ./checkpoints/circle-net-0019.ckpt
+391/391 [==============================] - 300s 767ms/step - loss: 0.0445 - contains_loss: 0.0154 - center_loss: 0.0016 - radius_loss: 0.0013 - contains_binary_accuracy: 0.9948 - center_weighted_absolute_error: 0.0411 - radius_weighted_absolute_error: 0.0261
+Epoch 20/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0432 - contains_loss: 0.0148 - center_loss: 0.0016 - radius_loss: 0.0012 - contains_binary_accuracy: 0.9951 - center_weighted_absolute_error: 0.0404 - radius_weighted_absolute_error: 0.0256
+Epoch 00020: saving model to ./checkpoints/circle-net-0020.ckpt
+391/391 [==============================] - 297s 760ms/step - loss: 0.0432 - contains_loss: 0.0148 - center_loss: 0.0016 - radius_loss: 0.0012 - contains_binary_accuracy: 0.9951 - center_weighted_absolute_error: 0.0404 - radius_weighted_absolute_error: 0.0256
+Epoch 21/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0429 - contains_loss: 0.0148 - center_loss: 0.0016 - radius_loss: 0.0012 - contains_binary_accuracy: 0.9951 - center_weighted_absolute_error: 0.0404 - radius_weighted_absolute_error: 0.0254
+Epoch 00021: saving model to ./checkpoints/circle-net-0021.ckpt
+391/391 [==============================] - 293s 750ms/step - loss: 0.0429 - contains_loss: 0.0148 - center_loss: 0.0016 - radius_loss: 0.0012 - contains_binary_accuracy: 0.9951 - center_weighted_absolute_error: 0.0403 - radius_weighted_absolute_error: 0.0253
+Epoch 22/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0403 - contains_loss: 0.0144 - center_loss: 0.0015 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9952 - center_weighted_absolute_error: 0.0384 - radius_weighted_absolute_error: 0.0247
+Epoch 00022: saving model to ./checkpoints/circle-net-0022.ckpt
+391/391 [==============================] - 305s 780ms/step - loss: 0.0403 - contains_loss: 0.0144 - center_loss: 0.0015 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9952 - center_weighted_absolute_error: 0.0384 - radius_weighted_absolute_error: 0.0246
+Epoch 23/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0408 - contains_loss: 0.0149 - center_loss: 0.0015 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9950 - center_weighted_absolute_error: 0.0387 - radius_weighted_absolute_error: 0.0243
+Epoch 00023: saving model to ./checkpoints/circle-net-0023.ckpt
+391/391 [==============================] - 301s 769ms/step - loss: 0.0408 - contains_loss: 0.0149 - center_loss: 0.0015 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9950 - center_weighted_absolute_error: 0.0388 - radius_weighted_absolute_error: 0.0243
+Epoch 24/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0407 - contains_loss: 0.0152 - center_loss: 0.0014 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9947 - center_weighted_absolute_error: 0.0383 - radius_weighted_absolute_error: 0.0244
+Epoch 00024: saving model to ./checkpoints/circle-net-0024.ckpt
+391/391 [==============================] - 312s 797ms/step - loss: 0.0407 - contains_loss: 0.0154 - center_loss: 0.0014 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9947 - center_weighted_absolute_error: 0.0383 - radius_weighted_absolute_error: 0.0244
+Epoch 25/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0386 - contains_loss: 0.0133 - center_loss: 0.0014 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9954 - center_weighted_absolute_error: 0.0384 - radius_weighted_absolute_error: 0.0242
+Epoch 00025: saving model to ./checkpoints/circle-net-0025.ckpt
+391/391 [==============================] - 313s 799ms/step - loss: 0.0386 - contains_loss: 0.0133 - center_loss: 0.0014 - radius_loss: 0.0011 - contains_binary_accuracy: 0.9954 - center_weighted_absolute_error: 0.0384 - radius_weighted_absolute_error: 0.0242
+Epoch 26/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0360 - contains_loss: 0.0122 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9960 - center_weighted_absolute_error: 0.0371 - radius_weighted_absolute_error: 0.0235
+Epoch 00026: saving model to ./checkpoints/circle-net-0026.ckpt
+391/391 [==============================] - 311s 796ms/step - loss: 0.0360 - contains_loss: 0.0122 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9961 - center_weighted_absolute_error: 0.0371 - radius_weighted_absolute_error: 0.0235
+Epoch 27/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0372 - contains_loss: 0.0141 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9953 - center_weighted_absolute_error: 0.0364 - radius_weighted_absolute_error: 0.0232
+Epoch 00027: saving model to ./checkpoints/circle-net-0027.ckpt
+391/391 [==============================] - 312s 797ms/step - loss: 0.0372 - contains_loss: 0.0141 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9954 - center_weighted_absolute_error: 0.0364 - radius_weighted_absolute_error: 0.0232
+Epoch 28/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0366 - contains_loss: 0.0132 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9954 - center_weighted_absolute_error: 0.0370 - radius_weighted_absolute_error: 0.0233
+Epoch 00028: saving model to ./checkpoints/circle-net-0028.ckpt
+391/391 [==============================] - 312s 798ms/step - loss: 0.0366 - contains_loss: 0.0132 - center_loss: 0.0013 - radius_loss: 0.0010 - contains_binary_accuracy: 0.9954 - center_weighted_absolute_error: 0.0370 - radius_weighted_absolute_error: 0.0233
+Epoch 29/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0353 - contains_loss: 0.0130 - center_loss: 0.0013 - radius_loss: 9.6871e-04 - contains_binary_accuracy: 0.9956 - center_weighted_absolute_error: 0.0359 - radius_weighted_absolute_error: 0.0227
+Epoch 00029: saving model to ./checkpoints/circle-net-0029.ckpt
+391/391 [==============================] - 309s 790ms/step - loss: 0.0353 - contains_loss: 0.0130 - center_loss: 0.0013 - radius_loss: 9.6933e-04 - contains_binary_accuracy: 0.9955 - center_weighted_absolute_error: 0.0359 - radius_weighted_absolute_error: 0.0228
+Epoch 30/30
+390/391 [============================>.] - ETA: 0s - loss: 0.0355 - contains_loss: 0.0128 - center_loss: 0.0013 - radius_loss: 9.7830e-04 - contains_binary_accuracy: 0.9957 - center_weighted_absolute_error: 0.0362 - radius_weighted_absolute_error: 0.0229
+Epoch 00030: saving model to ./checkpoints/circle-net-0030.ckpt
+391/391 [==============================] - 313s 800ms/step - loss: 0.0355 - contains_loss: 0.0128 - center_loss: 0.0013 - radius_loss: 9.7791e-04 - contains_binary_accuracy: 0.9957 - center_weighted_absolute_error: 0.0362 - radius_weighted_absolute_error: 0.0228

@@ -1,0 +1,6 @@
+tensorflow==2.0.0
+matplotlib
+numpy
+scikit_image
+tqdm
+Shapely==1.6.4.post2
