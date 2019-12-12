@@ -23,6 +23,20 @@ With gpu support:
 ```bash
 docker build -f Dockerfile.gpu -t circle-net-gpu .
 ```
+`
+
+## Inference
+To get score for latest checkpoint:
+```bash
+docker run -it -v $PWD:/tf circle-net python main.py
+```
+
+With gpu support:
+```bash
+docker run --gpus=all -it -v $PWD:/tf circle-net-gpu python main.py
+```
+After 30 epochs model achieves > 0.999 score. Latest checkpoints are in the 
+**/checkpoints** folder.
 
 ## Train
 To train CNN run:
@@ -33,12 +47,4 @@ docker run -it -v $PWD:/tf circle-net python core/train.py
 With gpu support:
 ```bash
 docker run --gpus=all -it -v $PWD:/tf circle-net-gpu python core/train.py
-```
-
-## Inference
-To get score for latest checkpoint:
-```bash
-docker run -it -v $PWD:/tf circle-net python main.py
-```
-After 30 epochs model achieves > 0.999 score. Latest checkpoints are in the 
-**/checkpoints** folder.
+``
