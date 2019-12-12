@@ -32,7 +32,7 @@ def noisy_circle(size, radius, noise):
 
 
 def find_circle(img):
-    return inference.find_circle(img)
+    return inference.find_circle(img).numpy()
 
 
 def iou(params0, params1):

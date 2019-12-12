@@ -7,7 +7,7 @@ I tried to keep the provided main.py with minimum changes.
 
 In general, the approach is to run FCNN network on the image and predict a grid
 of probabilities, relative coordinates and radiuses. Then aggregate that 
-information to find the best center and radius assumption. The model easily 
+information to find the best center and radius assumption. The model 
 achieves > 0.999@iou>0.7 score.
 
 Model structure is in the **core/circle_net.py** Training log is in the 
@@ -21,7 +21,7 @@ docker build -f Dockerfile -t circle-net .
 
 With gpu support:
 ```bash
-docker build -f Dockerfile.nvidia -t circle-net-gpu .
+docker build -f Dockerfile.gpu -t circle-net-gpu .
 ```
 
 ## Train
@@ -32,7 +32,7 @@ docker run -it -v $PWD:/tf circle-net python core/train.py
 
 With gpu support:
 ```bash
-docker run --gpus=all -it -v $PWD:/tf circle-net python core/train.py
+docker run --gpus=all -it -v $PWD:/tf circle-net-gpu python core/train.py
 ```
 
 ## Inference
