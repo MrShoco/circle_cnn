@@ -23,7 +23,6 @@ With gpu support:
 ```bash
 docker build -f Dockerfile.gpu -t circle-net-gpu .
 ```
-`
 
 ## Inference
 To get score for latest checkpoint:
